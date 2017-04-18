@@ -33,7 +33,7 @@ let view count dispatch =
         [ ]
         [ unbox (string count) ]
       button
-        [ events [ onClick Increment ] ]
+        [ events [ onClick Increment ]; style [ Display 1 ] ]
         [ unbox "+" ]
     ]
 
